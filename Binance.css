@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(30, 35, 41);
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(30, 35, 41);
+    padding-top: 1rem;
+}
+
+a:hover {
+    color: rgb(252, 213, 53);
+}
+
+header {
+    position: relative;
+    top: 0;
+}
+
+header * {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+}
+
+.binance-nav-items2 {
+    margin-left: 2rem;
+    position: relative;
+    left: 3rem;
+}
+
+main {
+    width: 100%;
+}
+.voucher {
+    text-align: center;
+    background-color: rgb(254, 246, 216);
+    padding: 0.7rem;
+}
+
+.get-started {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+
+.get-started h1 {
+    font-size: 3.4rem;
+    line-height: 4rem;
+    padding: 3rem 6rem;
+}
+
+.get-started h3 {
+    padding: 0 6rem;
+}
+
+#getStarted {
+    width: 16rem;
+    height: 3rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.2rem;
+    border-radius: 0.4rem;
+    border: 2px solid rgb(193, 202, 195);
+}
+
+#getStarted:hover {
+    border: 2px solid rgb(252, 213, 53);
+}
+
+.getStartButton {
+    background-color:  rgb(252, 213, 53);
+    padding: auto;
+    border: 2px solid transparent;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+}
+
+.get-image {
+    width: 40%;
+    height: 30rem;
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.get-image img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.Binance-stats-first {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: flex-start;
+    
+    
+}
+
+.Binance-stats-first li {
+   width: 25%;
+   padding: 3rem;
+   font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.Binance-stats-first li p {
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 28px;
+    margin: 0.5rem 0;
+}
+
+.binance-stats-btc, .binance-stats-eth, .Binance-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.binance-stats-btc__text, .binance-stats-eth__text{
+    padding: 3rem 0;
+}
+
+.binance-stats-btc__text *, .binance-stats-eth__text *{
+    margin: 2rem;
+}
+
+.binance-stats-eth__image, .binance-stats-btc__image {
+    height: 18em;
+    width: 45%;
+}
+
+.binance-stats-eth__image img, .binance-stats-btc__image img {
+    height: 100%;
+    width: 100%;
+}
+
+.binance-stats-btc__text p, .binance-stats-eth__text p {
+    color: rgb(71, 77, 87);
+}
+
+.binance-stats-btc__text h2, .binance-stats-eth__text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+
+}
+
+.learn-more {
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid transparent;
+    border-radius: 0.59rem;
+    background-color: rgb(252, 213, 53);
+    padding: auto;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.Binance-heading-h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.crypto-table {
+    padding: 3rem;
+    padding-left: 4rem;
+}
+
+.crypto-table * {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+}
+.crypto-table-heading div{
+    color: rgb(149, 154, 150);
+}
+
+.crypto-table-heading div, .simile {
+    width: 25%;
+    text-align: start;
+    
+    margin: 1rem 0;
+}
+
+.crypto-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+}
+
+.crypto-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.signup-now {
+    padding: 3rem;
+    padding-left: 4rem;
+    margin-bottom: 5rem;
+}
+
+.signup-now h1 {
+    margin-bottom: 1.5rem;
+}
+
+.build-port {
+    padding: 3rem;
+    padding-left: 4rem;
+    height: 52rem;
+}
+
+.build-port-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.build-port-steps__text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.build-port-steps__text * {
+    margin: 1rem 0;
+}
+
+#short {
+    margin-bottom: 0;
+    font-size: 2.1rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+}
+
+#short+p {
+    margin-top: 0.5rem;
+}
+
+.build-port-image {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+.build-port-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.exploreAll, .trade-go, .binance-safety, .need-help {
+    padding: 3rem;
+    padding-left: 4rem;
+}
+
+
+.Explore {
+    margin-bottom: 1.5rem;
+
+}
+
+.explore-boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.explore-boxbox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    border: 2px solid transparent;
+    margin: 2rem;
+}
+
+.explore-boxbox:hover {
+    box-shadow: 0px 8px 16px rgb(24 26 32 / 16%);
+}
+
+.explore-boxbox * {
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.explore-box-image {
+    width: 290px;
+    height: 216px;
+}
+
+.explore-box-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.learn-link {
+    margin-top: 0;
+    padding-left: 2rem;
+}
+
+.explore-box-text h1{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+
+.trade-go-text, .trade-go-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.trade-go-text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+
+.trade-go-text+p {
+    color: rgb(101, 110, 103);
+    font-size: large;
+}
+
+.trade-g-info__text {
+  width: 40%;   
+}
+
+.scan {
+    background-color: rgb(250, 250, 250) ;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.trade-go-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+}
+
+.svg-link {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.svg-link div {
+    height: 3rem;
+    width: 4rem;
+    padding: 1rem;
+    margin: 0.4rem;
+}
+
+.svg-link:hover {
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+
+.binance-safety-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.binance-safety-points {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.binance-safety-points div * {
+    margin: 1rem 0;
+}
+
+.binance-safety-image {
+    width: 484px;
+    height: 272px;
+    display: inline-block;
+
+}
+
+.binance-safety-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.help-points {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.help-points div {
+    width: 25%;
+}
+
+.help-points div * {
+    margin: 1rem 0;
+}
+
+.need-help-link {
+    color: rgb(201, 148, 0) ;
+}
+
+.start-earning {
+    margin-top: 2rem;
+    height: 20rem;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    padding-top: 9rem;
+}
+
+
